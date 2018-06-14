@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.zjx.dev</groupId>
+	<artifactId>microservice-template</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>microservice-template</name>
+	<description>Demo project for Spring cloud</description>
+	<modules>
+		<module>template-eureka</module>
+		<module>template-config</module>
+		<module>template-gateway</module>
+		<module>template-auth</module>
+	</modules>
+
+
+
+
+</project>

@@ -1,0 +1,17 @@
+git: 1.0
+
+ribbon:
+  ReadTimeout: 20000
+  ConnectTimeout: 20000
+
+zuul:
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+  routes:
+    auth-center:
+      path: /auth/**
+      serviceId: auth-center
+      stripPrefix: false
+      sensitiveHeaders:
