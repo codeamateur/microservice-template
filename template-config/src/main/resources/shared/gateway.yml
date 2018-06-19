@@ -11,7 +11,7 @@ zuul:
     socket-timeout-millis: 20000
   routes:
     auth-center:
-      path: /auth/**
+      path: /auth-service/**
       serviceId: auth-center
       stripPrefix: false
       sensitiveHeaders:

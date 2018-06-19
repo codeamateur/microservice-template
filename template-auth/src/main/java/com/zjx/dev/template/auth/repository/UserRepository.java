@@ -1,12 +1,12 @@
 package com.zjx.dev.template.auth.repository;
 
-import com.zjx.dev.template.auth.domain.User;
-import org.springframework.data.repository.CrudRepository;
+import com.zjx.dev.template.auth.domain.SysUserEntity;
+import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends CrudRepository<User, String> {
+public interface UserRepository extends PagingAndSortingRepository<SysUserEntity, Integer> {
 
-    User findUserByUsername(String username);
+    SysUserEntity findUserByUsername(String username);
 
 }

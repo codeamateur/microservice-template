@@ -23,3 +23,13 @@ spring:
         enabled: true
         service-id: config-center
 
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:5000/auth-service/user
+    client:
+      access-token-uri: http://localhost:5000/auth-service/oauth/token
+      user-authorization-uri: http://localhost:5000/auth-service/oauth/authorize
+      client-id: webApp
+      client-secret: webApp
+

@@ -1,10 +1,10 @@
 package com.zjx.dev.template.auth.service;
 
 
-import com.zjx.dev.template.auth.domain.User;
+import com.zjx.dev.template.auth.domain.SysUserEntity;
 
 public interface UserService {
 
-	void create(User user);
+	void create(SysUserEntity user);
 
 }
