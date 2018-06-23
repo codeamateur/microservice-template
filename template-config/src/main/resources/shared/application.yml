@@ -26,10 +26,10 @@ spring:
 security:
   oauth2:
     resource:
-      user-info-uri: http://localhost:5000/auth-service/user
+      user-info-uri: http://localhost:4000/uaa/user
+      prefer-token-info: false
     client:
-      access-token-uri: http://localhost:5000/auth-service/oauth/token
-      user-authorization-uri: http://localhost:5000/auth-service/oauth/authorize
-      client-id: webApp
-      client-secret: webApp
+      access-token-uri: http://localhost:4000/uaa/oauth/token
+      user-authorization-uri: http://localhost:4000/uaa/oauth/authorize
+      client-id: webapp
 

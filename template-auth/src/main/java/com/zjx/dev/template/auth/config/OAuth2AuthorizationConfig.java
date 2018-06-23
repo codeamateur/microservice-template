@@ -12,11 +12,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.A
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
-import org.springframework.security.oauth2.provider.ClientDetailsService;
-import org.springframework.security.oauth2.provider.client.JdbcClientDetailsService;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
-import javax.sql.DataSource;
 
 @Configuration
 @EnableAuthorizationServer
@@ -32,22 +29,23 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
     @Autowired
     private DBUserDetailsService userDetailsService;
 
-    @Autowired
-    private DataSource dataSource;
-
     @Bean
     TokenStore redisTokenStore(){
         return new RedisTokenStore(redisConnectionFactory);
-    }
-    @Bean
-    public ClientDetailsService clientDetails() {
-        return new JdbcClientDetailsService(dataSource);
     }
 
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        clients.withClientDetails(clientDetails());
+//        clients.inMemory()
+//                .withClient("browser")
+//                .authorizedGrantTypes("refresh_token", "password")
+//                .scopes("ui");
+        clients.inMemory()
+                .withClient("android")
+                .scopes("xx")
+                .secret("android")
+                .authorizedGrantTypes("password", "authorization_code", "refresh_token");
     }
 
 
