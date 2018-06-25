@@ -15,6 +15,7 @@
 		<module>template-config</module>
 		<module>template-gateway</module>
 		<module>template-auth</module>
+		<module>template-order</module>
 	</modules>
 
 

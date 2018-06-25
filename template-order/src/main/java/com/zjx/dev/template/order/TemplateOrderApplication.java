@@ -1,17 +1,16 @@
-package com.zjx.dev.template.gateway;
+package com.zjx.dev.template.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringBootApplication
-@EnableZuulProxy
 @EnableEurekaClient
-public class TemplateGatewayApplication {
+@EnableOAuth2Sso
+public class TemplateOrderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TemplateGatewayApplication.class, args);
+		SpringApplication.run(TemplateOrderApplication.class, args);
 	}
-
 }
