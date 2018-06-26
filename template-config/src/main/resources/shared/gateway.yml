@@ -11,11 +11,16 @@ zuul:
     uaa:
       path: /uaa/**
       serviceId: auth-center
-#      stripPrefix: false
+      stripPrefix: false
       sensitiveHeaders:
     order:
       path: /order/**
       serviceId: order-service
-#      stripPrefix: false
+      stripPrefix: false
       sensitiveHeaders:
-#  add-proxy-headers: true
+  add-proxy-headers: true
+
+security:
+  oauth2:
+    client:
+      client-id: webapp

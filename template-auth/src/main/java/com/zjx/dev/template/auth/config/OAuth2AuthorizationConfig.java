@@ -45,7 +45,11 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
                 .withClient("browser")
                 .secret(passwordEncoder.encode("test"))
                 .authorizedGrantTypes("refresh_token", "password")
-                .scopes("ui");
+                .scopes("ui")
+                .and()
+                .withClient("webapp")
+                .scopes("all")
+                .authorizedGrantTypes("implicit");
     }
 
 
@@ -59,7 +63,7 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
 
     @Override
     public void configure(AuthorizationServerSecurityConfigurer oauthServer) throws Exception {
-        oauthServer
+        oauthServer.allowFormAuthenticationForClients()
                 .tokenKeyAccess("permitAll()")
                 .checkTokenAccess("isAuthenticated()");
     }

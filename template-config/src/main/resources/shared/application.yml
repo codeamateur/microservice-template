@@ -8,7 +8,8 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 10000
+#            timeoutInMilliseconds: 10000
+            timeoutInMilliseconds: 80000
 
 eureka:
   client:
@@ -28,10 +29,5 @@ security:
     resource:
       user-info-uri: http://localhost:4000/uaa/user
       prefer-token-info: false
-#    client:
-#      access-token-uri: http://localhost:4000/uaa/oauth/token
-#      user-authorization-uri: http://localhost:4000/uaa/oauth/authorize
-#      client-id: webapp
-#      client-secret: webapp
 
 
