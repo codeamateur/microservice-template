@@ -48,8 +48,8 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
                 .scopes("ui")
                 .and()
                 .withClient("webapp")
-                .scopes("all")
-                .authorizedGrantTypes("implicit");
+                .authorizedGrantTypes("implicit")
+                .scopes("all");
     }
 
 

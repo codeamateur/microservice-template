@@ -11,12 +11,10 @@ zuul:
     uaa:
       path: /uaa/**
       serviceId: auth-center
-      stripPrefix: false
       sensitiveHeaders:
     order:
       path: /order/**
       serviceId: order-service
-      stripPrefix: false
       sensitiveHeaders:
   add-proxy-headers: true
 

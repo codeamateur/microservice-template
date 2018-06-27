@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
 
     @RequestMapping("/demo")
-    @PreAuthorize("hasAuthority('query-demo')")
+    @PreAuthorize("hasAuthority('demo:query')")
     public String order() {
         return "order";
     }
