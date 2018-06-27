@@ -8,11 +8,11 @@ zuul:
     connect-timeout-millis: 20000
     socket-timeout-millis: 20000
   routes:
-    uaa:
+    auth-center:
       path: /uaa/**
       serviceId: auth-center
       sensitiveHeaders:
-    order:
+    order-service:
       path: /order/**
       serviceId: order-service
       sensitiveHeaders:
