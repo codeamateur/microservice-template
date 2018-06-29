@@ -16,4 +16,5 @@ public class TemplateGatewayApplication {
 		SpringApplication.run(TemplateGatewayApplication.class, args);
 	}
 
+
 }
