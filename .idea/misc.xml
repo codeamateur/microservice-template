@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/template-config/pom.xml" />
         <option value="$PROJECT_DIR$/template-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/template-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/template-order/pom.xml" />
+        <option value="$PROJECT_DIR$/template-account/pom.xml" />
       </list>
     </option>
   </component>

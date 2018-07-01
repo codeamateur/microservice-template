@@ -3,10 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservice-template.iml" filepath="$PROJECT_DIR$/microservice-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template-account/template-account.iml" filepath="$PROJECT_DIR$/template-account/template-account.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-auth/template-auth.iml" filepath="$PROJECT_DIR$/template-auth/template-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-config/template-config.iml" filepath="$PROJECT_DIR$/template-config/template-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-eureka/template-eureka.iml" filepath="$PROJECT_DIR$/template-eureka/template-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-gateway/template-gateway.iml" filepath="$PROJECT_DIR$/template-gateway/template-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template-order/template-order.iml" filepath="$PROJECT_DIR$/template-order/template-order.iml" />
     </modules>
   </component>
 </project>

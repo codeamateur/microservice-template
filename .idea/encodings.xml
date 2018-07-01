@@ -2,10 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/template-account" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/template-order" charset="UTF-8" />
   </component>
 </project>
