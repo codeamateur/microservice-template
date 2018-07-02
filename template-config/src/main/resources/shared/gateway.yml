@@ -12,6 +12,10 @@ zuul:
       path: /uaa/**
       serviceId: auth-center
       sensitiveHeaders:
+    account:
+      path: /account/**
+      serviceId: account-service
+      sensitiveHeaders:
     order:
       path: /order/**
       serviceId: order-service

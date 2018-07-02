@@ -49,7 +49,7 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
                 .and()
                 .withClient("webapp")
                 .authorizedGrantTypes("implicit")
-                .scopes("all");
+                .scopes("server");
     }
 
 

@@ -39,4 +39,24 @@ public class DBUserDetailsService implements UserDetailsService {
 		}
 		return new User(user.getUsername(), user.getPassword(), grantedAuthorities);
 	}
+
+//	@Autowired
+//	private AccountServiceClient accountServiceClient;
+//
+//	@Override
+//	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+//		UserDto user = accountServiceClient.getAccountByName(username);
+//		if (user == null) {
+//			throw new UsernameNotFoundException(username);
+//		}
+//		List<GrantedAuthority> grantedAuthorities = new ArrayList<>();
+//		for(String permission:user.getPermissions()){
+//			GrantedAuthority authority = new SimpleGrantedAuthority(permission);
+//			grantedAuthorities.add(authority);
+//		}
+//		return new User(user.getUsername(), user.getPassword(), grantedAuthorities);
+//	}
+
+
+
 }
