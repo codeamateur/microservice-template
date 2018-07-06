@@ -19,6 +19,12 @@ public class OrderDto {
     @ApiModelProperty("主键ID")
     private Integer id;
 
+    @ApiModelProperty("用户id")
+    private Integer userId;
+
+    @ApiModelProperty("用户名")
+    private String userName;
+
     @ApiModelProperty("商品名称")
     private String commodityName;
 

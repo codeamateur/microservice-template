@@ -26,7 +26,7 @@ public class AccountServiceImpl implements AccountService {
 	@Override
 	public AccountDto findByName(String accountName) {
 		Assert.notNull(accountName,"用户名不为空");
-		SysUserEntity userEntity = repository.findByName(accountName);
+		SysUserEntity userEntity = repository.findByUsername(accountName);
 		return UserMapper.INSTANCE.entityToAccountDto(userEntity,userEntity.getRoleLists().stream().map(role -> role.getRoleName()).collect(Collectors.toList()),
 				userEntity.getRoleLists().parallelStream().flatMap(role -> role.getMenuLists().stream().map(menu->menu.getPermission())).distinct().collect(Collectors.toList())
 				);
@@ -35,7 +35,7 @@ public class AccountServiceImpl implements AccountService {
 	@Override
 	public UserDto getAccountByName(String accountName) {
 		Assert.notNull(accountName,"用户名不为空");
-		SysUserEntity userEntity = repository.findByName(accountName);
+		SysUserEntity userEntity = repository.findByUsername(accountName);
 		return UserMapper.INSTANCE.entityToUserDto(userEntity,
 				userEntity.getRoleLists().parallelStream().flatMap(role -> role.getMenuLists().stream().map(menu->menu.getPermission())).distinct().collect(Collectors.toList())
 		);

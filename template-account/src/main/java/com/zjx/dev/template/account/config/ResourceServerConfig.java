@@ -20,8 +20,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
             "/swagger-ui.html",
             "swagger-resources/configuration/ui",
             "/doc.html",
-            "/webjars/**",
-            "/**"
+            "/webjars/**"
     };
 
     @Override

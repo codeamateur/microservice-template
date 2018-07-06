@@ -1,21 +1,14 @@
 spring:
-  jpa:
-    show-sql: true
-    database: mysql
-    open-in-view: true
-    properties:
-      hibernate:
-        enable_lazy_load_no_trans : true
-  datasource:
-    url: jdbc:mysql://localhost:3306/microservice?useUnicode=true&characterEncoding=utf-8&useSSL=false
-    username: root
-    password: root
-    driver-class-name: com.mysql.jdbc.Driver
   redis:
     host: 127.0.0.1
     port: 6379
 
 security:
-    oauth2:
-      resource:
-        filter-order: 3
+  oauth2:
+    client:
+      clientId: auth-center
+      clientSecret: test
+      grant-type: client_credentials
+      scope: server
+    resource:
+      filter-order: 3

@@ -1,7 +1,7 @@
-package com.zjx.dev.template.auth.client;
+package com.zjx.dev.template.order.client;
 
 
-import com.zjx.dev.template.auth.domain.dto.UserDto;
+import com.zjx.dev.template.order.domain.dto.UserDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

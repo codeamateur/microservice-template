@@ -1,6 +1,6 @@
 logging:
   level:
-    org.springframework.security: INFO
+    org.springframework.security: debug
 
 hystrix:
   command:
@@ -8,7 +8,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 10000
+            timeoutInMilliseconds: 80000
 
 eureka:
   client:
@@ -25,6 +25,8 @@ spring:
 
 security:
   oauth2:
+    authorization:
+      check-token-access: http://localhost:4000/uaa/oauth/check_token
     client:
       access-token-uri: http://localhost:4000/uaa/oauth/token
       user-authorization-uri: http://localhost:4000/uaa/oauth/authorize

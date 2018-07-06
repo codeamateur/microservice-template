@@ -15,6 +15,11 @@ spring:
 
 security:
   oauth2:
+    client:
+      clientId: account-service
+      clientSecret: test
+      grant-type: client_credentials
+      scope: server
     resource:
       id: account-service
 

@@ -49,6 +49,21 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
                 .and()
                 .withClient("webapp")
                 .authorizedGrantTypes("implicit")
+                .scopes("xx")
+                .and()
+                .withClient("auth-center")
+                .secret(passwordEncoder.encode("test"))
+                .authorizedGrantTypes("client_credentials", "refresh_token")
+                .scopes("server")
+                .and()
+                .withClient("order-service")
+                .secret(passwordEncoder.encode("test"))
+                .authorizedGrantTypes("client_credentials", "refresh_token")
+                .scopes("server")
+                .and()
+                .withClient("account-service")
+                .secret(passwordEncoder.encode("test"))
+                .authorizedGrantTypes("client_credentials", "refresh_token")
                 .scopes("server");
     }
 

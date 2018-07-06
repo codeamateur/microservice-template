@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface AccountRepository extends CrudRepository<SysUserEntity, Integer> {
 
-	SysUserEntity findByName(String name);
+	SysUserEntity findByUsername(String name);
 
 }
