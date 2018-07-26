@@ -12,3 +12,7 @@ security:
       scope: server
     resource:
       id: order-service
+
+feign:
+  hystrix:
+    enabled:  true

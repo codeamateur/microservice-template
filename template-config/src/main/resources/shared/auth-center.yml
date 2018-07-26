@@ -12,3 +12,7 @@ security:
       scope: server
     resource:
       filter-order: 3
+
+feign:
+  hystrix:
+    enabled:  true

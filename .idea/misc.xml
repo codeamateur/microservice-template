@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/template-auth/pom.xml" />
         <option value="$PROJECT_DIR$/template-order/pom.xml" />
         <option value="$PROJECT_DIR$/template-account/pom.xml" />
+        <option value="$PROJECT_DIR$/template-monitoring/pom.xml" />
       </list>
     </option>
   </component>
