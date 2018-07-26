@@ -13,10 +13,6 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * Created by wiselyman on 2017/5/4.
- */
-
 @Component
 @Slf4j
 public class ServiceFallbackProvider implements FallbackProvider {

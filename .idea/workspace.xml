@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2768a770-1c27-4eac-a392-fab84e9e1e2c" name="Default" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2768a770-1c27-4eac-a392-fab84e9e1e2c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-auth/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/TemplateAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/TemplateAuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-config/src/main/resources/shared/auth-center.yml" beforeDir="false" afterPath="$PROJECT_DIR$/template-config/src/main/resources/shared/auth-center.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-config/src/main/resources/shared/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/template-config/src/main/resources/shared/order-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-config/src/main/resources/shared/monitoring.yml" beforeDir="false" afterPath="$PROJECT_DIR$/template-config/src/main/resources/shared/monitoring.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-gateway/src/main/java/com/zjx/dev/template/gateway/fallbacks/ServiceFallbackProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-gateway/src/main/java/com/zjx/dev/template/gateway/fallbacks/ServiceFallbackProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-monitoring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-monitoring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-monitoring/src/main/java/com/zjx/dev/template/monitoring/TemplateMonitoringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-monitoring/src/main/java/com/zjx/dev/template/monitoring/TemplateMonitoringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-monitoring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/template-monitoring/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template-order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/TemplateOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/TemplateOrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/client/AccountServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/client/AccountServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/config/ResourceServerConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,100 +33,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-auth/pom.xml">
+      <file leaf-file-name="TemplateMonitoringApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template-monitoring/src/main/java/com/zjx/dev/template/monitoring/TemplateMonitoringApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order-service.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-config/src/main/resources/shared/order-service.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/controller/AccountController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#1143#1144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountServiceClientHystrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/client/hystrix/AccountServiceClientHystrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="414">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-order/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth-center.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-config/src/main/resources/shared/auth-center.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateOrderApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/TemplateOrderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/service/impl/OrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountServiceClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/client/AccountServiceClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -160,6 +68,7 @@
       <find>AuthenticationManager</find>
       <find>order-service</find>
       <find>account-service</find>
+      <find>spring-cloud-starter-netflix-eureka-client</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,14 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/service/UserService.java" />
-        <option value="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/template-auth/src/main/resources/auth-center.yml" />
-        <option value="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/template-eureka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/template-gateway/src/main/java/com/zjx/dev/template/gateway/fallbacks/ServiceFallbackProvider.java" />
-        <option value="$PROJECT_DIR$/template-auth/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/config/ResourceServerConfig.java" />
         <option value="$PROJECT_DIR$/template-auth/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/OrderController.java" />
@@ -220,13 +121,21 @@
         <option value="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/client/AccountServiceClient.java" />
         <option value="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/client/hystrix/AccountServiceClientHystrix.java" />
         <option value="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/client/hystrix/AccountServiceClientHystrix.java" />
-        <option value="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/TemplateOrderApplication.java" />
-        <option value="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/TemplateAuthApplication.java" />
         <option value="$PROJECT_DIR$/template-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/template-order/pom.xml" />
         <option value="$PROJECT_DIR$/template-order/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/template-config/src/main/resources/shared/order-service.yml" />
         <option value="$PROJECT_DIR$/template-config/src/main/resources/shared/auth-center.yml" />
+        <option value="$PROJECT_DIR$/template-monitoring/pom.xml" />
+        <option value="$PROJECT_DIR$/template-order/pom.xml" />
+        <option value="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/config/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/config/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/template-gateway/src/main/java/com/zjx/dev/template/gateway/fallbacks/ServiceFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/template-monitoring/src/main/resources/monitoring.yml" />
+        <option value="$PROJECT_DIR$/template-config/src/main/resources/shared/monitoring.yml" />
+        <option value="$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/TemplateOrderApplication.java" />
+        <option value="$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/TemplateAuthApplication.java" />
+        <option value="$PROJECT_DIR$/template-monitoring/src/main/java/com/zjx/dev/template/monitoring/TemplateMonitoringApplication.java" />
+        <option value="$PROJECT_DIR$/template-monitoring/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -288,173 +197,6 @@
             <path>
               <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-account" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-account" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-account" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-account" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-account" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-account" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-account" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
               <item name="template-monitoring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -484,99 +226,13 @@
               <item name="template-monitoring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template-order" type="462c0819:PsiDirectoryNode" />
+              <item name="template-monitoring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -606,11 +262,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\ideaProjects\microservice-template\template-config\src\main\resources\shared" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zjx.dev.template.account.domain.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\microservice-template\template-monitoring\src\main\resources" />
+      <recent name="E:\ideaProjects\microservice-template\template-account\src\main\resources" />
+      <recent name="E:\ideaProjects\microservice-template\template-account\src\main\java\com\zjx\dev\template\account\domain" />
+      <recent name="C:\IdeaProjects\microservice-template\template-config\src\main\resources\shared" />
+      <recent name="C:\IdeaProjects\microservice-template\template-order\src\main\java\com\zjx\dev\template\order\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zjx.dev.template.account.config" />
@@ -619,12 +279,8 @@
       <recent name="com.zjx.dev.template.account.domain.dto" />
       <recent name="com.zjx.dev.template.account.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ideaProjects\microservice-template\template-account\src\main\resources" />
-      <recent name="E:\ideaProjects\microservice-template\template-account\src\main\java\com\zjx\dev\template\account\domain" />
-      <recent name="C:\IdeaProjects\microservice-template\template-config\src\main\resources\shared" />
-      <recent name="C:\IdeaProjects\microservice-template\template-order\src\main\java\com\zjx\dev\template\order\controller" />
-      <recent name="C:\IdeaProjects\microservice-template\template-auth\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideaProjects\microservice-template\template-config\src\main\resources\shared" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -644,7 +300,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.14796747" />
+    <option name="contentProportion" value="0.15609756" />
   </component>
   <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -757,7 +413,7 @@
       <workItem from="1530428300325" duration="237000" />
       <workItem from="1530428581977" duration="3167000" />
       <workItem from="1530494992149" duration="21414000" />
-      <workItem from="1532586155003" duration="10437000" />
+      <workItem from="1532586155003" duration="19510000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1529942086807</created>
@@ -773,15 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530027605014</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1532597669388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532597669388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93304000" />
+    <option name="totallyTimeSpent" value="102377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -789,7 +451,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.47546348" />
-      <window_info anchor="bottom" id="Run Dashboard" order="7" sideWeight="0.49946696" visible="true" weight="0.23991276" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="7" sideWeight="0.49946696" visible="true" weight="0.478735" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297062" />
@@ -797,7 +459,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49390244" visible="true" weight="0.23240939" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49390244" visible="true" weight="0.23240939" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" sideWeight="0.50609756" side_tool="true" weight="0.22974414" />
       <window_info anchor="right" id="Database" order="3" />
@@ -888,66 +550,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar!/org/springframework/util/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/repository/AccountRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/domain/dto/OrderDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/domain/entity/SysMenuEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/domain/entity/SysRoleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/controller/Test.java" />
-    <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/domain/entity/SysUserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/domain/dto/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-openfeign/2.0.0.RC2/spring-cloud-starter-openfeign-2.0.0.RC2.pom" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RC2/spring-cloud-netflix-eureka-client-2.0.0.RC2-sources.jar!/org/springframework/cloud/netflix/eureka/EnableEurekaClient.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.0.RC2/spring-cloud-openfeign-core-2.0.0.RC2.jar!/org/springframework/cloud/openfeign/FeignClient.class" />
@@ -969,20 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-auth/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-account/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" lean-forward="true" selection-start-column="24" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1008,13 +596,6 @@
         <state relative-caret-position="-1533" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-account/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-config/src/main/resources/shared/account-service.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -1027,31 +608,10 @@
         <state relative-caret-position="-897" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/config/ResourceServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/config/OAuth2AuthorizationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="55" column="76" lean-forward="true" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/config/ResourceServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/TemplateAccountApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1081,33 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-monitoring/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-monitoring/src/main/java/com/zjx/dev/template/monitoring/TemplateMonitoringApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-monitoring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/service/security/DBUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/TemplateAuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/client/AccountServiceClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1158,24 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-order/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-config/src/main/resources/shared/order-service.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1189,7 +705,7 @@
     <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/client/hystrix/AccountServiceClientHystrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
@@ -1208,24 +724,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/TemplateOrderApplication.java">
+    <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="322">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/domain/dto/OrderDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-account/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-account/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-auth/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-account/src/main/java/com/zjx/dev/template/account/TemplateAccountApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="42" column="60" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-order/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-turbine/2.0.0.RELEASE/spring-cloud-starter-netflix-turbine-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="66" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-monitoring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/config/OAuth2AuthorizationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="55" column="76" lean-forward="true" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-gateway/src/main/java/com/zjx/dev/template/gateway/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-gateway/src/main/java/com/zjx/dev/template/gateway/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-gateway/src/main/java/com/zjx/dev/template/gateway/fallbacks/ServiceFallbackProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-monitoring/src/main/resources/monitoring.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="91">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/service/impl/OrderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/template-config/src/main/resources/shared/monitoring.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="69">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-order/src/main/java/com/zjx/dev/template/order/TemplateOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="69" selection-start-line="69" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-auth/src/main/java/com/zjx/dev/template/auth/TemplateAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-monitoring/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-monitoring/src/main/java/com/zjx/dev/template/monitoring/TemplateMonitoringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

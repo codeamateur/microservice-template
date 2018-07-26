@@ -1,0 +1,4 @@
+turbine:
+  appConfig: auth-center,order-service
+  aggregator:
+    clusterConfig: AUTH-CENTER,ORDER-SERVICE
