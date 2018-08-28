@@ -2,3 +2,8 @@ turbine:
   appConfig: auth-center,order-service
   aggregator:
     clusterConfig: AUTH-CENTER,ORDER-SERVICE
+  clusterNameExpression: new String("default")
+  combine-host: true
+  instanceUrlSuffix:
+    AUTH-CENTER: actuator/hystrix.stream
+    ORDER-SERVICE: actuator/hystrix.stream
